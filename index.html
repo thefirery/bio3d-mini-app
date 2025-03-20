@@ -5,17 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>3D Model Viewer</title>
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala&display=swap" rel="stylesheet">
   <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
 <body>
   <div class="container">
-    <h1>Choose a 3D Model</h1>
+    <h1>3D මාදිලි තෝරන්න</h1> <!-- Title in Sinhala -->
     <div class="buttons">
-      <button onclick="showModel(''model1">සත්ත්ව සෛලය</button>
+      <button onclick="showModel('model1')">සත්ත්ව සෛලය</button> <!-- Button in Sinhala -->
       <button onclick="showModel('model2')">Model 2</button>
     </div>
     <div id="model-viewer" class="model-viewer"></div>
-    <button id="back-button" onclick="goBack()" style="display: none;">Back to Main</button>
+    <button id="back-button" onclick="goBack()" style="display: none;">ප්‍රධාන මෙනුවට ආපසු</button> <!-- Back button in Sinhala -->
     <div id="loading-spinner" class="loading-spinner" style="display: none;">Loading...</div>
   </div>
   <script src="script.js"></script>
